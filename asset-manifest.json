@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-redux-minesweeper/static/css/main.e92adf51.chunk.css",
+    "main.js": "/react-redux-minesweeper/static/js/main.c1564b10.chunk.js",
+    "main.js.map": "/react-redux-minesweeper/static/js/main.c1564b10.chunk.js.map",
+    "runtime-main.js": "/react-redux-minesweeper/static/js/runtime-main.17605963.js",
+    "runtime-main.js.map": "/react-redux-minesweeper/static/js/runtime-main.17605963.js.map",
+    "static/js/2.b1d9060b.chunk.js": "/react-redux-minesweeper/static/js/2.b1d9060b.chunk.js",
+    "static/js/2.b1d9060b.chunk.js.map": "/react-redux-minesweeper/static/js/2.b1d9060b.chunk.js.map",
+    "index.html": "/react-redux-minesweeper/index.html",
+    "precache-manifest.78944b7065beb8567dba3789eea369c7.js": "/react-redux-minesweeper/precache-manifest.78944b7065beb8567dba3789eea369c7.js",
+    "service-worker.js": "/react-redux-minesweeper/service-worker.js",
+    "static/css/main.e92adf51.chunk.css.map": "/react-redux-minesweeper/static/css/main.e92adf51.chunk.css.map"
+  }
+}
