@@ -1,7 +1,7 @@
 import * as actions from './actions'
 import { ActionType, getType } from 'typesafe-actions'
 import { get2DArrayOf } from '../utils'
-import { cloneDeep } from 'lodash'
+import { cloneDeep, every } from 'lodash'
 import { generateMap, getSurroundingPoints } from '../minesweeper'
 import { number } from '@storybook/addon-knobs'
 
@@ -125,7 +125,22 @@ export default (
       }
 
     case getType(actions.incrementTimer):
-      if (state.inProgress && !state.explodedMines) {
+      if (
+        state.inProgress &&
+        !state.explodedMines &&
+        state.visibility &&
+        !every(
+          state.visibility.map((row, y) =>
+            every(
+              row.map(
+                (isVisible, x) =>
+                  (isVisible && state.board![y][x] !== 'mine') ||
+                  (!isVisible && state.board![y][x] === 'mine'),
+              ),
+            ),
+          ),
+        )
+      ) {
         return { ...state, timeElapsed: state.timeElapsed + 1 }
       } else {
         return state
