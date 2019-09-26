@@ -24,7 +24,9 @@ const FakeSevenSegmentDisplay = (props: { value: number }) => (
       border-left: 1px solid ${COLORS.borders.cell.dark};
     `}
   >
-    {props.value.toString().padStart(3, '0')}
+    {Math.min(props.value, 999)
+      .toString()
+      .padStart(3, '0')}
   </div>
 )
 
