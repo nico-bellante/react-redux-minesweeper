@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13c367d719bf92f58ea909199bd1163e",
+    "revision": "52df667fe29f4e64594ef2d77cf95685",
     "url": "/react-redux-minesweeper/index.html"
   },
   {
