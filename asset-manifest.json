@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-redux-minesweeper/static/css/main.e92adf51.chunk.css",
-    "main.js": "/react-redux-minesweeper/static/js/main.9b89cde6.chunk.js",
-    "main.js.map": "/react-redux-minesweeper/static/js/main.9b89cde6.chunk.js.map",
+    "main.js": "/react-redux-minesweeper/static/js/main.70bf51c2.chunk.js",
+    "main.js.map": "/react-redux-minesweeper/static/js/main.70bf51c2.chunk.js.map",
     "runtime-main.js": "/react-redux-minesweeper/static/js/runtime-main.17605963.js",
     "runtime-main.js.map": "/react-redux-minesweeper/static/js/runtime-main.17605963.js.map",
     "static/js/2.d9e505cb.chunk.js": "/react-redux-minesweeper/static/js/2.d9e505cb.chunk.js",
     "static/js/2.d9e505cb.chunk.js.map": "/react-redux-minesweeper/static/js/2.d9e505cb.chunk.js.map",
     "index.html": "/react-redux-minesweeper/index.html",
-    "precache-manifest.3cb0aa87e94ba319fe604ca86c50cf63.js": "/react-redux-minesweeper/precache-manifest.3cb0aa87e94ba319fe604ca86c50cf63.js",
+    "precache-manifest.c53cc130da73f871d4c1229c6d69b108.js": "/react-redux-minesweeper/precache-manifest.c53cc130da73f871d4c1229c6d69b108.js",
     "service-worker.js": "/react-redux-minesweeper/service-worker.js",
     "static/css/main.e92adf51.chunk.css.map": "/react-redux-minesweeper/static/css/main.e92adf51.chunk.css.map"
   }
